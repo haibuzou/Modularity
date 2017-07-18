@@ -1,11 +1,15 @@
 package com.haibuzou.modularity;
 
-import android.app.Application;
+import com.haibuzou.baselib.BaseApplication;
 
 /**
  * Created by hywin on 2017/7/17.
  */
 
-public class MainApplication extends Application {
+public class MainApplication extends BaseApplication {
 
+    @Override
+    public void onCreate() {
+        super.onCreate();
+    }
 }
